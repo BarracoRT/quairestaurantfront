@@ -7,7 +7,7 @@ html{
 }
 
 main{
-    margin-bottom: 250px;  
+    margin: bottom 270px;px;  
 }
 
 footer.footer{
@@ -77,5 +77,9 @@ p{
 }
 
 .form-label{
+    color: $primary;
+}
+
+.container{
     color: $primary;
 }

@@ -10,18 +10,20 @@
 
 <div class="container pt-3">
   <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Trigosucio9@domain.com">
-      
+    <div class="mb-3">
+      <label for="EmailInput">Email</label>
+      <input type="email" class="form-control" id="EmailInput" aria-describedby="emailHelp" placeholder="example@domain.com">
+      <div class="invalid-feedback">
+        Veuillez entrer une adresse email valide.
+      </div>
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Mot de passe</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
+    <div class="mb-3">
+      <label for="PasswordInput">Mot de passe</label>
+      <input type="password" class="form-control" id="PasswordInput" placeholder="********">
     </div>
     
     <div class="text-center pt-3">
-      <button type="submit" class="btn btn-primary">Connexion</button> 
+      <button type="button" class="btn btn-primary" id="btnSignin">Connexion</button> 
       
     </div>
 
